@@ -625,6 +625,10 @@
     [
       "b4a2b830-aa8f-41e8-96c4-9a049628082b",
       "Power"
+    ],
+    [
+      "e2dc1f12-63ba-4c47-9570-e24a1d6d7bb0",
+      "ADC"
     ]
   ],
   "text_variables": {}

@@ -8181,6 +8181,48 @@
 		)
 	)
 	(sheet
+		(at 124.46 143.51)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2dc1f12-63ba-4c47-9570-e24a1d6d7bb0")
+		(property "Sheetname" "ADC"
+			(at 124.46 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_power.kicad_sch"
+			(at 124.46 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 194.31 35.56)
 		(size 39.37 21.59)
 		(exclude_from_sim no)
