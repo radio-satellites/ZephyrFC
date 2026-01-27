@@ -1920,7 +1920,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "4.2V regulator - NOTE UPDATE RESISTORS"
+	(text "4.2V regulator"
 		(exclude_from_sim no)
 		(at 100.076 135.128 0)
 		(effects
@@ -3473,7 +3473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "274k"
+		(property "Value" "221k"
 			(at 118.11 152.3999 0)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.1k"
+		(property "Value" "20k"
 			(at 118.11 161.2899 0)
 			(effects
 				(font
