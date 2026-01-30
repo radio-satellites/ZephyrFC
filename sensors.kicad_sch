@@ -3065,9 +3065,9 @@
 		)
 		(uuid "20c3f2f9-42bd-4209-9e95-e75b188deae8")
 	)
-	(text "source: http://wiki.sunfounder.cc/images/f/f1/Gsdg.png"
+	(text "source: http://wiki.sunfounder.cc/images/f/f1/Gsdg.png and page 13 of https://www.tinytronics.nl/product_files/002176_ATGM336H.pdf"
 		(exclude_from_sim no)
-		(at 171.704 149.098 0)
+		(at 158.75 151.638 0)
 		(effects
 			(font
 				(size 0.127 0.127)
@@ -3190,12 +3190,6 @@
 		(uuid "b007d737-dabf-476d-8a47-419ee07a2988")
 	)
 	(junction
-		(at 156.21 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc003c5b-b45a-4f2a-a612-2668a5cde0e1")
-	)
-	(junction
 		(at 175.26 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3218,6 +3212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa28716-7a20-4466-a79b-fa3d84ec5304")
+	)
+	(junction
+		(at 157.48 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8185c6d-0b5b-433b-8f49-02a051427b9b")
 	)
 	(no_connect
 		(at 116.84 154.94)
@@ -3353,7 +3353,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 149.86) (xy 170.18 152.4)
+			(xy 157.48 152.4) (xy 157.48 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3503,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 149.86) (xy 162.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31504bdc-f973-499f-bc86-7c12b74d418b")
-	)
-	(wire
-		(pts
 			(xy 114.3 157.48) (xy 116.84 157.48)
 		)
 		(stroke
@@ -3540,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "382032a7-8dcb-41fc-a4af-246693019dbc")
+	)
+	(wire
+		(pts
+			(xy 152.4 149.86) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38df0666-07f2-442b-8e7d-7e413e670cf2")
 	)
 	(wire
 		(pts
@@ -3590,16 +3590,6 @@
 			(type default)
 		)
 		(uuid "41e2a435-6aa4-4709-a3c3-eeb9ac19d168")
-	)
-	(wire
-		(pts
-			(xy 156.21 157.48) (xy 158.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4248f4a4-7a00-466c-bdf0-0f9bc7063f1a")
 	)
 	(wire
 		(pts
@@ -3783,6 +3773,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 152.4) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698851f2-2290-4116-acf9-ed1da6c921ef")
+	)
+	(wire
+		(pts
 			(xy 189.23 156.21) (xy 189.23 154.94)
 		)
 		(stroke
@@ -3830,16 +3830,6 @@
 			(type default)
 		)
 		(uuid "73e92362-aef8-4d75-922e-f891050cbae4")
-	)
-	(wire
-		(pts
-			(xy 170.18 152.4) (xy 156.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f4bac5-cc7f-463d-aa6a-822693692d37")
 	)
 	(wire
 		(pts
@@ -3893,16 +3883,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 152.4) (xy 156.21 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3c8087-7600-4697-a4f1-95db5104662e")
-	)
-	(wire
-		(pts
 			(xy 101.6 143.51) (xy 101.6 140.97)
 		)
 		(stroke
@@ -3913,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 156.21 157.48)
+			(xy 149.86 157.48) (xy 157.48 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4343,6 +4323,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd86402-0013-4f62-9c1d-be7bf38d641d")
+	)
+	(wire
+		(pts
 			(xy 100.33 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -4390,6 +4380,16 @@
 			(type default)
 		)
 		(uuid "e3a0ea97-1d11-46e3-a8d8-e313763b8daf")
+	)
+	(wire
+		(pts
+			(xy 157.48 152.4) (xy 160.02 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5256311-05a1-401a-968c-ffdaafff9351")
 	)
 	(wire
 		(pts
@@ -4490,16 +4490,6 @@
 			(type default)
 		)
 		(uuid "f4a9a9f1-8ba5-45c9-8e8a-61cf0d5fd7f7")
-	)
-	(wire
-		(pts
-			(xy 149.86 149.86) (xy 152.4 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61fb345-b850-4998-aac2-e98d64297093")
 	)
 	(wire
 		(pts
@@ -6114,74 +6104,6 @@
 			(project "Zephyr"
 				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51977061-2f42-48b1-8c61-43512c56f12c")
-		(property "Reference" "R17"
-			(at 156.21 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 156.21 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92248c9b-0f70-42a8-aba8-b76f9bfa85a5")
-		)
-		(pin "2"
-			(uuid "10d9319e-3755-4b0f-8f38-d8149b6dc72e")
-		)
-		(instances
-			(project ""
-				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8198,24 +8120,23 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 166.37 149.86 90)
+		(at 156.21 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3297ade-5a49-4f8d-8320-08b86942fab4")
 		(property "Reference" "L1"
-			(at 166.37 144.78 90)
+			(at 156.21 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "27uH"
-			(at 166.37 147.32 90)
+		(property "Value" "47nH"
+			(at 156.21 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 149.86 0)
+			(at 156.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 149.86 0)
+			(at 156.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8162,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 166.37 149.86 0)
+			(at 156.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
