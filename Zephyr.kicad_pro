@@ -629,6 +629,10 @@
     [
       "e2dc1f12-63ba-4c47-9570-e24a1d6d7bb0",
       "ADC"
+    ],
+    [
+      "f007e616-c2c9-4db0-acd0-84ca6639f2bb",
+      "Radio"
     ]
   ],
   "text_variables": {}
