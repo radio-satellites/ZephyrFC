@@ -4835,6 +4835,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://github.com/sbcshop/MicroSD-Breakout/blob/main/Hardware%20Files/SCH%20SD%20CARD%20BREAKOUT.pdf"
+		(exclude_from_sim no)
+		(at 346.964 171.704 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "0a3e37b3-f303-4a4e-afe4-2ff55c0fe096")
+	)
 	(text "C51927445"
 		(exclude_from_sim no)
 		(at 21.59 36.83 90)
