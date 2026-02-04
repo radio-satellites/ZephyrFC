@@ -1942,6 +1942,26 @@
 		)
 		(uuid "04adccc0-611d-4b3c-9125-5a2d573a71f7")
 	)
+	(text "R=0.04"
+		(exclude_from_sim no)
+		(at 70.104 133.858 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "28a9e334-c95f-49bd-8cd1-36fc24b0c5cd")
+	)
+	(text "R=0.113"
+		(exclude_from_sim no)
+		(at 48.006 134.366 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "4388dd5d-4ee4-407d-880e-52e2e3e0c152")
+	)
 	(text "Supply Indicator"
 		(exclude_from_sim no)
 		(at 164.592 92.71 0)
@@ -1951,6 +1971,16 @@
 			)
 		)
 		(uuid "44b70563-7247-40a7-ac09-100a2a9ac790")
+	)
+	(text "R=0.05"
+		(exclude_from_sim no)
+		(at 59.436 135.382 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "5c4a74ec-23d7-4858-8fc0-3b260cfe5ba4")
 	)
 	(text "Filter curve"
 		(exclude_from_sim no)
@@ -2004,6 +2034,16 @@
 		)
 		(uuid "8ca6e9b8-41cb-492b-bb5e-d4ab55b9bfbf")
 	)
+	(text "Total system resistance ~0.2 ohms"
+		(exclude_from_sim no)
+		(at 84.836 133.35 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+		)
+		(uuid "8d6882d2-5c90-4eb5-9e26-a056a374fe79")
+	)
 	(text "APH0630T150M"
 		(exclude_from_sim no)
 		(at 50.292 132.842 0)
@@ -2014,7 +2054,7 @@
 		)
 		(uuid "945612bf-d98a-460a-ad14-aad3d6d5fce1")
 	)
-	(text "MPZ2012S601AT000"
+	(text "MPZ2012S221AT000\n"
 		(exclude_from_sim no)
 		(at 69.596 128.016 0)
 		(effects
@@ -2023,6 +2063,16 @@
 			)
 		)
 		(uuid "982b2f5c-e306-48af-bb8c-570beb5d95d4")
+	)
+	(text "The purpose of this is to prevent ringing of the LC circuit, which can easily kill everything else"
+		(exclude_from_sim no)
+		(at 60.706 134.874 0)
+		(effects
+			(font
+				(size 0.127 0.127)
+			)
+		)
+		(uuid "ae5a1c5e-05a2-4407-a9ca-4a4cf15450b2")
 	)
 	(text "->"
 		(exclude_from_sim no)
@@ -2128,6 +2178,12 @@
 		(uuid "8afeb68f-6ad6-4991-9242-90e7e6dbebd9")
 	)
 	(junction
+		(at 52.07 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f06fd3d-204e-411a-91e7-5e86b472641d")
+	)
+	(junction
 		(at 177.8 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,12 +2200,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b139a74f-c6c4-4652-b6fe-2470b75065f1")
-	)
-	(junction
-		(at 52.07 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb2ba2d8-883b-4f44-ba93-c16cdad1b0a0")
 	)
 	(junction
 		(at 154.94 147.32)
@@ -2341,7 +2391,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 142.24) (xy 60.96 138.43)
+			(xy 60.96 142.24) (xy 60.96 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2591,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 137.16) (xy 66.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7b3668-a976-4b98-a744-ffcd95ee7d3f")
+	)
+	(wire
+		(pts
 			(xy 232.41 138.43) (xy 232.41 135.89)
 		)
 		(stroke
@@ -2631,16 +2691,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 52.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ce3903-31cd-427e-a3d7-b7a8f3a007c9")
-	)
-	(wire
-		(pts
 			(xy 118.11 101.6) (xy 118.11 100.33)
 		)
 		(stroke
@@ -2671,7 +2721,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 138.43) (xy 54.61 138.43)
+			(xy 60.96 139.7) (xy 54.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2708,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "c17d2b0a-358c-4119-acbd-53456bf7116d")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a9069c-74af-4bcf-82cc-64494f703b0f")
 	)
 	(wire
 		(pts
@@ -2791,7 +2851,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.61 138.43) (xy 54.61 127)
+			(xy 54.61 139.7) (xy 54.61 127)
 		)
 		(stroke
 			(width 0)
@@ -6718,6 +6778,74 @@
 			(project "Zephyr"
 				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/b4a2b830-aa8f-41e8-96c4-9a049628082b"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d1fe25-8adc-4202-b10a-4ed232211b25")
+		(property "Reference" "R17"
+			(at 59.69 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mR"
+			(at 59.69 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d5d0507-6867-4923-a06b-8647344ad3db")
+		)
+		(pin "2"
+			(uuid "f41e2f28-d392-4292-ae9f-dafe62dbb16f")
+		)
+		(instances
+			(project ""
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/b4a2b830-aa8f-41e8-96c4-9a049628082b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
