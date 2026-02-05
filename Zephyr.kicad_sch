@@ -7104,12 +7104,12 @@
 		(uuid "89e4dbe1-3148-4e23-8eb2-7d94a60cb426")
 	)
 	(label "NEOPIXEL_OUT"
-		(at 148.1376 139.5995 180)
+		(at 121.92 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8a476847-6432-4220-8b7a-bce3e548452c")
 	)
