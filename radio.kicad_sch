@@ -1385,6 +1385,17 @@
 		)
 		(uuid "8f565428-79e4-44a1-845d-04bc687210aa")
 	)
+	(hierarchical_label "RF_NRST"
+		(shape passive)
+		(at 120.65 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "913d5288-164e-4fa6-9eb2-dacab154f9e1")
+	)
 	(hierarchical_label "RF_MOSI"
 		(shape passive)
 		(at 120.65 91.44 180)
@@ -1572,7 +1583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 162.56 127 0)
 			(effects
 				(font
