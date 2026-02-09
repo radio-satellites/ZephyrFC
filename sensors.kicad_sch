@@ -3191,12 +3191,6 @@
 		(uuid "781d6da7-1164-4117-9379-c979eeca461b")
 	)
 	(junction
-		(at 35.56 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9240513c-b37f-4254-8438-4ba069fd4e9d")
-	)
-	(junction
 		(at 113.03 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3279,10 +3273,6 @@
 	(no_connect
 		(at 149.86 142.24)
 		(uuid "f05f4e33-2831-4b2d-92ec-87999b8be8d8")
-	)
-	(no_connect
-		(at 160.02 59.69)
-		(uuid "fded5432-9b49-45a6-ac87-a5150e19fe98")
 	)
 	(wire
 		(pts
@@ -3393,6 +3383,16 @@
 			(type default)
 		)
 		(uuid "1fe44181-7ab8-4b54-9eff-f734c4a54183")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 140.97 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2393703d-36af-4b8c-8f8c-369363d39c37")
 	)
 	(wire
 		(pts
@@ -3656,16 +3656,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 140.97) (xy 35.56 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55161370-56bb-47d5-be14-bb15c920f8e0")
-	)
-	(wire
-		(pts
 			(xy 62.23 54.61) (xy 62.23 55.88)
 		)
 		(stroke
@@ -3793,6 +3783,16 @@
 			(type default)
 		)
 		(uuid "74bf800f-220d-415b-a3c1-4155533af818")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cd1a6f-7f15-4865-a806-e5e65d030e7b")
 	)
 	(wire
 		(pts
@@ -4066,6 +4066,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 59.69) (xy 140.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6f001d-4fcb-4d81-871a-31992bfdf05d")
+	)
+	(wire
+		(pts
 			(xy 97.79 68.58) (xy 107.95 68.58)
 		)
 		(stroke
@@ -4176,16 +4186,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 35.56 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d740ed95-a62e-4c7a-a52f-2f22dc161eba")
-	)
-	(wire
-		(pts
 			(xy 121.92 69.85) (xy 121.92 71.12)
 		)
 		(stroke
@@ -4223,16 +4223,6 @@
 			(type default)
 		)
 		(uuid "dbef5c29-5027-48bb-81ae-f84fae48cfd1")
-	)
-	(wire
-		(pts
-			(xy 54.61 140.97) (xy 54.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df381a3e-7048-4a31-98fc-233f31ea2288")
 	)
 	(wire
 		(pts
@@ -4343,16 +4333,6 @@
 			(type default)
 		)
 		(uuid "eae362af-8423-4dae-ad3a-7c259d5bd6e8")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 54.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc41709-5a03-46cb-b31f-7312ffccb610")
 	)
 	(wire
 		(pts
@@ -5125,6 +5105,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128fa8ad-b042-48d5-ac3c-d30d7656fac2")
+		(property "Reference" "#PWR080"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db657f2d-c86f-45dc-8972-5bf9d2d99ee0")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 167.64 119.38 0)
 		(unit 1)
@@ -5392,6 +5438,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1b3364-efb0-485b-a0e1-0f868ca023dc")
+		(property "Reference" "#PWR081"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e46793f-9c42-4076-a0b2-51a0d868ec88")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 102.87 25.4 0)
 		(unit 1)
@@ -5591,7 +5703,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 35.56 137.16 0)
+		(at 35.56 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5600,7 +5712,7 @@
 		(fields_autoplaced yes)
 		(uuid "269401b1-8076-4e8b-9590-356c144e8485")
 		(property "Reference" "#PWR025"
-			(at 35.56 140.97 0)
+			(at 35.56 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5721,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 35.56 132.08 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 137.16 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 137.16 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 137.16 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +7093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 267.97 34.2899 0)
 			(effects
 				(font
@@ -7093,6 +7205,76 @@
 			(project "Zephyr"
 				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
 					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629a322f-c5aa-464b-acff-f68620a99d92")
+		(property "Reference" "R48"
+			(at 143.51 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 139.192 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dada38aa-3f0d-4888-9893-3d414523939a")
+		)
+		(pin "2"
+			(uuid "c02f3ce0-af6a-4189-971b-d03280f83ea0")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -7635,6 +7817,142 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 39.37 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ee7756e-9c6f-4cc8-ac11-bae8210341cc")
+		(property "Reference" "C14"
+			(at 43.18 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 43.18 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 40.3352 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9560c701-c952-44be-bf9f-956684910729")
+		)
+		(pin "1"
+			(uuid "1aba65e6-da21-4fa2-85fc-6a2f96f1154f")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 53.34 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa21e80-8a6f-4f1f-8d3d-83c4794c23ee")
+		(property "Reference" "#PWR0188"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 53.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c53823c-a817-4c21-b292-685fbdb99652")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 273.05 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8098,6 +8416,76 @@
 			(project "Zephyr"
 				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c7c0ac-0632-4e34-90e8-032a079fd54d")
+		(property "Reference" "C28"
+			(at 57.15 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 57.15 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 54.3052 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e8ca51b-4786-4437-a5d7-8263b7844e27")
+		)
+		(pin "1"
+			(uuid "2234a498-cd60-4847-bf43-4e5d3c75be38")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9111,75 +9499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 46.99 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc79d1e4-30cd-4f55-8cef-98ea119bd28e")
-		(property "Reference" "C14"
-			(at 44.958 134.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 44.958 136.906 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 43.18 141.9352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d6cf66f-89f4-46b6-9610-dd7da411eb3e")
-		)
-		(pin "2"
-			(uuid "358df115-f712-484f-a9ac-ec990b111aff")
-		)
-		(instances
-			(project "Zephyr"
-				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 214.63 36.83 0)
 		(unit 1)
@@ -9985,6 +10304,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 39.37 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df79b496-a767-4d6f-89bc-2b06ded44789")
+		(property "Reference" "#PWR079"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 39.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e02f07a3-8a48-402b-b2ce-a31e53373a87")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 33.02 0)
 		(unit 1)
@@ -10111,6 +10496,72 @@
 			(project "Zephyr"
 				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
 					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d2a51a-3ec8-46cc-8a0b-09defe859254")
+		(property "Reference" "#PWR0189"
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f8401e-5b3b-49dd-9779-55ed104f7f19")
+		)
+		(instances
+			(project "Zephyr"
+				(path "/e99ca14d-cacc-4390-92ee-6dcff8e13ef3/ec279230-54a0-4e30-9b23-a4126e2291f2"
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -10912,7 +11363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 257.81 34.2899 0)
 			(effects
 				(font
