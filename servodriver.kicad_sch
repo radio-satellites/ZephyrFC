@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "0faa2bb3-56ad-4918-b528-bfe5f2a2ad72")
 	(paper "A4")
+	(title_block
+		(rev "V0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -1389,6 +1392,16 @@
 			)
 		)
 		(uuid "01d9e3a8-3c00-46a3-8eb9-19aa236edaa0")
+	)
+	(text "Address = 0x40"
+		(exclude_from_sim no)
+		(at 110.998 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad6c53bb-00a2-4781-9d9b-3fb1b83af0ed")
 	)
 	(junction
 		(at 85.09 77.47)
