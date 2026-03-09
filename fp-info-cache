@@ -1,4 +1,4 @@
-27099766414409678
+27106829883548845
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107338,12 +107338,33 @@ CONN-TH_2P-P5.00_WJ500V-5.08-2P
 2
 2
 lcsc
+GPSM-SMD_ATGM336H-TR
+
+
+0
+18
+18
+lcsc
+IND-SMD_L5.4-W5.2_MPCA-0518
+
+
+0
+2
+2
+lcsc
 RF-SMD_FRF05002-JSS103M
 
 
 0
 3
-3
+2
+lcsc
+SW-SMD_4P-L3.5-W3.0-P1.50-LS4.7
+
+
+0
+4
+2
 lcsc
 TF-SMD_HX-TF-CARD-H1.8-SY
 
@@ -107351,3 +107372,10 @@ TF-SMD_HX-TF-CARD-H1.8-SY
 0
 15
 13
+lcsc
+WIRELM-SMD_E22-400M30S
+
+
+0
+22
+22

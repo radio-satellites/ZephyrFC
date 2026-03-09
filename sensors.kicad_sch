@@ -9005,7 +9005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libsos41:GPSM-SMD_ATGM336H-TR"
+		(property "Footprint" "lcsc:GPSM-SMD_ATGM336H-TR"
 			(at 133.35 167.64 0)
 			(effects
 				(font

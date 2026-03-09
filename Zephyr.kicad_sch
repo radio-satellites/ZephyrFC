@@ -10249,7 +10249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libsos41:SMD_SW_NEW_REDONE"
+		(property "Footprint" "lcsc:SW-SMD_4P-L3.5-W3.0-P1.50-LS4.7"
 			(at 21.59 36.83 0)
 			(effects
 				(font

@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SWIFTLIBS:WIRELM-SMD_E22-400M30S"
+		(property "Footprint" "lcsc:WIRELM-SMD_E22-400M30S"
 			(at 138.43 114.3 0)
 			(effects
 				(font

@@ -2059,12 +2059,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "MPZ2012S221AT000\n"
+	(text "C76818"
 		(exclude_from_sim no)
-		(at 153.924 137.414 0)
+		(at 153.924 136.398 0)
 		(effects
 			(font
 				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 		)
 		(uuid "333fb2c8-5138-4242-ab6d-963e10ef75db")
@@ -2161,6 +2163,16 @@
 			)
 		)
 		(uuid "e834aab8-76e1-4c23-98a8-f4a375ffedac")
+	)
+	(text "C5349679"
+		(exclude_from_sim no)
+		(at 100.33 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6188e26-2646-46df-90f4-7e646d603af8")
 	)
 	(junction
 		(at 123.19 133.35)
@@ -3997,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 151.13 135.128 90)
 			(effects
 				(font
@@ -4345,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:IND-SMD_L5.4-W5.2_MPCA-0518"
 			(at 100.33 133.35 0)
 			(effects
 				(font
