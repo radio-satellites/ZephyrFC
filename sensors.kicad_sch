@@ -3160,6 +3160,16 @@
 		)
 		(uuid "d8e97b62-c3cd-4b9f-a3e2-21828e45130e")
 	)
+	(text "C88374"
+		(exclude_from_sim no)
+		(at 169.926 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e71c2a71-1c63-4c1d-b84b-9de5cb47ed72")
+	)
 	(junction
 		(at 35.56 143.51)
 		(diameter 0)
@@ -9655,7 +9665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -10195,7 +10205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:RF-SMD_FRF05002-JSS103M"
 			(at 163.83 157.48 0)
 			(effects
 				(font

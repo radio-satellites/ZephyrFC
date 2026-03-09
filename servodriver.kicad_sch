@@ -1564,6 +1564,16 @@
 		)
 		(uuid "ad6c53bb-00a2-4781-9d9b-3fb1b83af0ed")
 	)
+	(text "C88732"
+		(exclude_from_sim no)
+		(at 252.73 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcfb22c2-b13c-46de-929e-59550c1345ba")
+	)
 	(junction
 		(at 110.49 93.98)
 		(diameter 0)
@@ -2363,7 +2373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 67.31 39.3699 0)
 			(effects
 				(font
@@ -2706,7 +2716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 244.8052 49.53 0)
 			(effects
 				(font
@@ -4946,7 +4956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 57.15 39.3699 0)
 			(effects
 				(font
