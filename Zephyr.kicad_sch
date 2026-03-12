@@ -6487,6 +6487,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 175.26) (xy 144.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4310c2-d1a5-44d4-bf70-359472126458")
+	)
+	(wire
+		(pts
 			(xy 52.07 224.79) (xy 52.07 223.52)
 		)
 		(stroke
@@ -6707,6 +6717,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 175.26) (xy 144.78 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d343fbc6-6b5e-4370-9531-96b778d92681")
+	)
+	(wire
+		(pts
 			(xy 283.21 88.9) (xy 284.48 88.9)
 		)
 		(stroke
@@ -6834,6 +6854,16 @@
 			(type default)
 		)
 		(uuid "e27bf38c-870e-48a6-a496-67261cb29430")
+	)
+	(wire
+		(pts
+			(xy 144.78 166.37) (xy 121.92 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47e7c02-031c-4b50-9fdd-3d2b274d2da1")
 	)
 	(wire
 		(pts
@@ -7165,16 +7195,6 @@
 		)
 		(uuid "29eac965-6d39-4779-9923-3665008843f8")
 	)
-	(label "SYS_JTMS-SWDIO"
-		(at 119.38 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f8478db-c044-4773-bede-00bfb6abcdb9")
-	)
 	(label "RCC_OSC32_OUT"
 		(at 67.31 34.29 270)
 		(effects
@@ -7294,6 +7314,16 @@
 			(justify right bottom)
 		)
 		(uuid "722e96a8-26ba-45c5-9be8-797625b8f511")
+	)
+	(label "SYS_JTMS-SWDIO"
+		(at 119.38 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7309b3ad-cb43-4cc5-8862-67e77528d1d9")
 	)
 	(label "SBUS_IN"
 		(at 330.2 92.71 180)
@@ -7455,16 +7485,6 @@
 		)
 		(uuid "c0115fc6-27da-4149-80bd-abe84e1eaf69")
 	)
-	(label "SYS_JTCK-SWCLK"
-		(at 119.38 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c45ae802-de6a-4ac3-b227-0b6529c15f3f")
-	)
 	(label "CS_FLASH"
 		(at 297.18 208.28 180)
 		(effects
@@ -7504,6 +7524,16 @@
 			(justify right bottom)
 		)
 		(uuid "d4fc4897-b99a-4b46-8a9f-c8ff4a396eb0")
+	)
+	(label "SYS_JTCK-SWCLK"
+		(at 119.38 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc456146-6e7d-4b88-857d-8ad1da9b1f79")
 	)
 	(label "RCC_OSC_IN"
 		(at 81.28 110.49 180)
